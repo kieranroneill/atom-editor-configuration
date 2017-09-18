@@ -1,6 +1,10 @@
 "*":
   core:
     telemetryConsent: "no"
+  editor:
+    softWrap: true
+    tabLength: 4
+    tabType: "soft"
   "exception-reporting":
     userId: "cebcd1b5-b69f-47d8-bbf5-1234284885e4"
   welcome:
