@@ -14,10 +14,17 @@ To restore the settings simply replace the `~/.atom/config.cson` file.
 
 ### 2. Packages
 
-To get a file containing the list of packages installed, run:
+#### Get a list of packages from an Atom installation
+
+1. Create a file containing the list of packages installed, run:
 ```bash
 apm list --installed --bare > ~/.atom/package.list
 ```
+2. Copy the file into the destination:
+```bash
+cp -a ~/.atom/package.list .
+```
+#### Restore the packages to an Atom installation
 
 To restore the packages, add `package.list` to the `~/.atom` directory and run:
 
